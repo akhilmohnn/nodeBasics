@@ -16,6 +16,10 @@ while(1){
         var n2=parseInt(read.question("Enter second  number:"))
         sum2(n1,n2);
     }
+    else if(choice==3){
+        var result=sum3();
+        console.log("Result from sum3():"+result)
+    }
     
     return 0;
 }
@@ -39,3 +43,9 @@ function sum2(a,b)
 
 }
 
+function sum3(){
+    var a=parseInt(read.question("Enter first number"))
+    var b=parseInt(read.question("Enter second number"))
+    return a+b
+
+}
