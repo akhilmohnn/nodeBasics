@@ -20,6 +20,20 @@ while(1){
         var result=sum3();
         console.log("Result from sum3():"+result)
     }
+    else if(choice==4){
+        var n1=parseInt(read.question("Enter first number:"))
+        var n2=parseInt(read.question("Enter second  number:"))
+        var result=sum4(n1,n2)
+        console.log("Sum of sum4():"+result)
+
+    }
+    else if(choice==0){
+        console.log("Exiting the program")
+        break;
+    }
+    else{
+        console.log("invalide entry")
+    }
     
     return 0;
 }
@@ -29,7 +43,7 @@ function sum1()
     var a,b;
     var a=parseInt(read.question("Enter num1"))
     var b=parseInt(read.question("Enter num2"))
-    sum=a+b
+    var sum=a+b
     console.log("Sum from sum1 is:"+sum)
 
 
@@ -48,4 +62,8 @@ function sum3(){
     var b=parseInt(read.question("Enter second number"))
     return a+b
 
+}
+
+function sum4(a,b){
+    return a+b
 }
