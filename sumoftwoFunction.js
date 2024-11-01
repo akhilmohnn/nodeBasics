@@ -9,21 +9,21 @@ while(1){
     var choice=parseInt(read.question("Enter choice:"));
 
     if(choice==1){
-        sum1()
+        sum1() // Call sum1 function (no arguments, no return value)
     }
     else if(choice==2){
         var n1=parseInt(read.question("Enter first number:"))
         var n2=parseInt(read.question("Enter second  number:"))
-        sum2(n1,n2);
+        sum2(n1,n2);  // Call sum2 function (with arguments, no return value)
     }
     else if(choice==3){
-        var result=sum3();
+        var result=sum3();   // Call sum3 function (no arguments, returns a value)
         console.log("Result from sum3():"+result)
     }
     else if(choice==4){
         var n1=parseInt(read.question("Enter first number:"))
         var n2=parseInt(read.question("Enter second  number:"))
-        var result=sum4(n1,n2)
+        var result=sum4(n1,n2)  // Call sum4 function (with arguments, returns a value)
         console.log("Sum of sum4():"+result)
 
     }
