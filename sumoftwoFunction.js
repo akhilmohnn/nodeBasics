@@ -35,7 +35,6 @@ while(1){
         console.log("invalide entry")
     }
     
-    return 0;
 }
 
 function sum1()
@@ -52,7 +51,7 @@ function sum1()
 function sum2(a,b)
 {
 
-    sum=a+b;
+    var sum=a+b;
     console.log("Sum is:"+sum)
 
 }
