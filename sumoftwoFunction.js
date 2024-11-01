@@ -31,4 +31,11 @@ function sum1()
 
 }
 
+function sum2(a,b)
+{
+
+    sum=a+b;
+    console.log("Sum is:"+sum)
+
+}
 
