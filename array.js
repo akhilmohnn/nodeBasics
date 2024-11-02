@@ -12,3 +12,4 @@ for(let i=0;i<5;i++){
 }
 
 console.log(a)
+console.log("first number is:"+a[0])
