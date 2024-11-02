@@ -5,7 +5,7 @@ var read=require("readline-sync")
 // var num2=parseInt(read.question("Enter num2"))
 
 while(1){
-    console.log("1.Sum using sum1()\n2.sum using sum2(num1,num2)\n3.Sum using sum3()\n4.Sum using sum4(num1,num2)")
+    console.log("\n0.Exit\n1.Sum using sum1()\n2.sum using sum2(num1,num2)\n3.Sum using sum3()\n4.Sum using sum4(num1,num2)")
     var choice=parseInt(read.question("Enter choice:"));
 
     if(choice==1){
