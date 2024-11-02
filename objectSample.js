@@ -6,3 +6,9 @@ var student={
 
 console.log(student)
 console.log(student['name'])
+
+console.log("\n")
+
+for(i in student){
+    console.log(student[i])
+}
