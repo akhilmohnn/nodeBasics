@@ -1,4 +1,5 @@
 var num=10
+//var num=30 ,if this declared it will take this value,the latest one
 
 function outerFunction(){
     var num=20 //again declared with same name,but it is considered different
