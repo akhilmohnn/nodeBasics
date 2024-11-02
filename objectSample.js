@@ -4,7 +4,7 @@ var student={
     place:"Kochi",
 
     display : function(){
-        console.log(this.name)  //using method to call the object value
+        console.log(this.name)  //using method to call the object value,it is accessible by using this
     }
 }
 
