@@ -8,6 +8,8 @@ var student={
     }
 }
 
+student.stream="CS" //adding a new field to student
+
 console.log(student)
 console.log(student['name'])
 
@@ -19,3 +21,9 @@ for(i in student){
 
 console.log("\n")
 student.display() //calling the method in the object to print name
+console.log("\n")
+student.displayStream= function(){  //declaring an another method outside the object
+    console.log(student.stream)
+}
+
+student.displayStream()
