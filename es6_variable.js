@@ -17,11 +17,13 @@ function topFunction(){
     if(i==0){
         var j=1
         let hey=200
+        var i=400
         console.log("Value of hey: "+hey)  //it will only print inside this block
     }
 
     console.log(j) //it will print the j value that is a "var"
     //console.log(hey)   this will cause an error, hey is not accessible from here,it is only available inside the declared block
+    console.log("i modified:" +i)  //var values will be modified takes,the latest value if same name used
 }
 
 topFunction()
