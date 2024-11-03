@@ -27,3 +27,10 @@ function topFunction(){
 }
 
 topFunction()
+
+
+const z=10
+
+//z=20 this causes an error, constant can't be modified
+
+console.log(z)
