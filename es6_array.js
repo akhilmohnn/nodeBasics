@@ -1,6 +1,6 @@
 const team=["Akhil","Rishi","Akarsh"]
 
-team.pop("Akhil")
+team.pop("Rishi") //here specifying is invalide,only removes from tail
 
 team.push("Nazeel")
 
