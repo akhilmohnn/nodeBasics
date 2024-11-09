@@ -9,7 +9,6 @@ A collection of notes, projects, and exercises by [akhilmohnn](https://github.co
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
 - [License](#license)
 
 ---
@@ -39,13 +38,13 @@ npm install
 3.**Usage**
 To run a specific JavaScript file, use the following command:
 <br>
-node <filename>.js
+node <filename>.js <br>
 For example:
 <br>
-node arithmetic.js
+node arithmetic.js<br>
 Some scripts may require user input through the command line. Make sure readline-sync is installed, as it's used to handle user input.
 
-Technologies Used
+## Technologies Used
 JavaScript (100%)
 Node.js
 Express.js (for backend functionality)
@@ -53,5 +52,5 @@ readline-sync (for reading user input in CLI)
 Contributing
 Contributions are welcome! Please feel free to submit issues, suggest features, or submit pull requests.
 
-##License
+## License
 This project is open-source.
