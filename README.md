@@ -33,16 +33,15 @@ This repository contains a series of scripts and examples demonstrating core Nod
    git clone https://github.com/akhilmohnn/nodeWorks.git
    cd nodeWorks
 2.**Install Dependencies**:
-bash
+
 npm install
 
 3.**Usage**
 To run a specific JavaScript file, use the following command:
-bash
+<br>
 node <filename>.js
 For example:
-
-bash
+<br>
 node arithmetic.js
 Some scripts may require user input through the command line. Make sure readline-sync is installed, as it's used to handle user input.
 
@@ -54,5 +53,5 @@ readline-sync (for reading user input in CLI)
 Contributing
 Contributions are welcome! Please feel free to submit issues, suggest features, or submit pull requests.
 
-**License**
+##License
 This project is open-source.
