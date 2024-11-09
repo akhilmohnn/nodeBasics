@@ -1,6 +1,6 @@
 # nodeWorks
 
-A collection of notes, projects, and exercises by [akhilmohnn](https://github.com/akhilmohnn) as I learn Node.js and JavaScript from the basics. This repository includes fundamental concepts, practical examples, and hands-on exercises to build proficiency in Node.js and JavaScript.
+A collection of notes, projects, and exercises by [akhilmohnn](https://github.com/akhilmohnn) as I learn Node.js from the basics. This repository includes fundamental concepts, practical examples, and hands-on exercises to build proficiency in Node.js and JavaScript.
 
 ## Table of Contents
 
