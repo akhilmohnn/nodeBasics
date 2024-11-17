@@ -1,4 +1,4 @@
-# nodeWorks
+# nodeBasics
 
 A collection of notes, projects, and exercises by [akhilmohnn](https://github.com/akhilmohnn) as I learn Node.js from the basics. This repository includes fundamental concepts, practical examples, and hands-on exercises to build proficiency in Node.js and JavaScript.
 
@@ -29,8 +29,8 @@ This repository contains a series of scripts and examples demonstrating core Nod
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/akhilmohnn/nodeWorks.git
-   cd nodeWorks
+   git clone https://github.com/akhilmohnn/nodeBasics.git
+   cd nodeBasics
 2.**Install Dependencies**:
 
 npm install
