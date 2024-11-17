@@ -15,6 +15,7 @@ class innerClass extends outerClass {
     }
 }
 
+
 let hey = new innerClass(10, 20);
 hey.hello();          // Calls hello() from innerClass
 hey.sampleHello();    // Calls sampleHello() from outerClass
