@@ -18,13 +18,25 @@ function longTask(milliSeconds){
 }
 
 console.log("Started")
-longTask(2000) 
+longTask(1000) 
 console.log("Ended")
 
 console.log("Started")
-longTask(2000) 
+longTask(1000) 
 console.log("Ended")
 
 console.log("Started")
-longTask(2000) 
+longTask(1000) 
 console.log("Ended")  //synchronous process execution,last three process completes one after another
+
+//the below functions and print describes asynchrnous process
+
+function showEnd(){
+    console.log("Ended")
+}
+
+console.log("Started 1")
+setTimeout(showEnd,1000)
+
+console.log("Started 2")
+setTimeout(showEnd,1000)
