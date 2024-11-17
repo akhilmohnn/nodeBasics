@@ -18,5 +18,13 @@ function longTask(milliSeconds){
 }
 
 console.log("Started")
-longTask(4000) //this will take 4 seconds,and then prints the next line
+longTask(2000) 
 console.log("Ended")
+
+console.log("Started")
+longTask(2000) 
+console.log("Ended")
+
+console.log("Started")
+longTask(2000) 
+console.log("Ended")  //synchronous process execution,last three process completes one after another
