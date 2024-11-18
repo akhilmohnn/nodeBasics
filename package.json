@@ -1,5 +1,19 @@
 {
   "dependencies": {
-    "readline-sync": "^1.4.10"
-  }
+    "readline-sync": "^1.4.10",
+    "upper-case": "^3.0.0"
+  },
+  "name": "nodeworks",
+  "version": "1.0.0",
+  "description": "A collection of notes, projects, and exercises by [akhilmohnn](https://github.com/akhilmohnn) as I learn Node.js from the basics. This repository includes fundamental concepts, practical examples, and hands-on exercises to build proficiency in Node.js and JavaScript.",
+  "main": "arithmetic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nodeWorks"
+  },
+  "author": "Akhil Mohanan",
+  "license": "ISC"
 }
